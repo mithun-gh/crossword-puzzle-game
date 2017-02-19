@@ -1,0 +1,99 @@
+{
+    "sizeX": 9,
+    "sizeY": 9,
+    "across": [
+        {
+            "number": 1,
+            "x": 1,
+            "y": 1,
+            "desc": "Clip, stroke, nut (9)",
+            "length": 9
+        },
+        {
+            "number": 5,
+            "x": 1,
+            "y": 3,
+            "desc": "Drive, brake, hard (4)",
+            "length": 4
+        },
+        {
+            "number": 7,
+            "x": 6,
+            "y": 3,
+            "desc": "Right, line, step (4)",
+            "length": 4
+        },
+        {
+            "number": 8,
+            "x": 3,
+            "y": 5,
+            "desc": "District, tennis, roomnut (5)",
+            "length": 5
+        },
+        {
+            "number": 11,
+            "x": 1,
+            "y": 7,
+            "desc": "Crop, flow, ready (4)",
+            "length": 4
+        },
+        {
+            "number": 12,
+            "x": 6,
+            "y": 7,
+            "desc": "Break, number, money (4)",
+            "length": 4
+        },
+        {
+            "number": 13,
+            "x": 1,
+            "y": 9,
+            "desc": "Odd, seeker, burning (9)",
+            "length": 9
+        }
+    ],
+    "down": [
+        {
+            "number": 2,
+            "x": 2,
+            "y": 1,
+            "desc": "Price, home, trust (4)",
+            "length": 4
+        },
+        {
+            "number": 3,
+            "x": 6,
+            "y": 1,
+            "desc": "Bank, judgement, public (7)",
+            "length": 7
+        },
+        {
+            "number": 4,
+            "x": 8,
+            "y": 1,
+            "desc": "Killer, pink, like (4)",
+            "length": 4
+        },
+        {
+            "number": 6,
+            "x": 4,
+            "y": 3,
+            "desc": "Horse, evening, line (7)",
+            "length": 7
+        },
+        {
+            "number": 9,
+            "x": 2,
+            "y": 6,
+            "desc": "Wing, shoe, curtain (4)",
+            "length": 4
+        },
+        {
+            "number": 10,
+            "x": 8,
+            "y": 6,
+            "desc": "In, tolerance, hour (4)",
+            "length": 4
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+body {
+  margin: 0 auto;
+  max-width: 48em;
+  font-family: serif;
+}
+
+.header {
+  border-bottom: 1px solid black;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.header h2 {
+  flex: 4;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.puzzleButtons {
+  margin-bottom: 12px;
+  display: inline-block;
+}
+
+.puzzleButtons button {
+  margin-left: 8px;
+}
+
+[data-reactroot] {
+  display: flex;
+}
+
+.crossword-board {
+  flex: 1;
+  margin: 8px;
+  display: inline-block;  
+  border: 1px solid black;
+}
+
+.editable {
+  cursor: default;
+  display: table-cell;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  border: 1px solid #444;
+  font-size: 26px;  
+  text-align: center;
+  vertical-align: middle;  
+}
+
+.non-editable {
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  display: table-cell;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.editable[data-line]:after {
+  position: absolute;
+  content: attr(data-line);
+  left: 4px;
+  top: 4px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#input-delegate {
+  width: 0;
+  height: 0;
+  border: none;
+  cursor: default;
+  color: transparent;
+  top: -999px;
+  left: -999px;
+  z-index: 999;
+  position: absolute;  
+}
+
+#input-delegate:focus, .editable:focus {
+  outline: none;
+}
+
+.crossword-questions {
+  flex: 1;
+  margin: 8px;
+  display: inline-block;
+}
+
+.crossword-questions p {
+  font-weight: bold;
+}
