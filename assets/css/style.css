@@ -32,7 +32,7 @@ body {
 .crossword-board {
   flex: 1;
   margin: 8px;
-  display: inline-block;  
+  display: table;
   border: 1px solid black;
 }
 
@@ -44,9 +44,13 @@ body {
   height: 50px;
   min-width: 50px;
   border: 1px solid #444;
-  font-size: 26px;  
+  font-size: 26px;
   text-align: center;
-  vertical-align: middle;  
+  vertical-align: middle;
+}
+
+.selected {
+  border: 1px dashed black;
 }
 
 .non-editable {
@@ -76,7 +80,7 @@ body {
   top: -999px;
   left: -999px;
   z-index: 999;
-  position: absolute;  
+  position: absolute;
 }
 
 #input-delegate:focus, .editable:focus {

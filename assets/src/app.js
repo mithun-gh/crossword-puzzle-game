@@ -75,7 +75,11 @@ class CrosswordBoard extends React.Component {
 
         editableDivs.forEach(div => {
             div.onclick = function (e) {
+                if (targetCell !== null) {
+                  targetCell.classList.remove('selected');
+                }
                 targetCell = e.target;
+                targetCell.classList.add('selected');
                 inputDelegate.focus();
                 inputDelegate.setSelectionRange(0, inputDelegate.value.length);
             };
